@@ -20,9 +20,9 @@ Este proyecto es un bot de Discord creado para gestionar tickets de soporte dent
 
    En el archivo **.env** añade todos los ID y el token del bot.
 
-   Dentro de la carpeta *handlers* entra al archivo **ticketHandler.js** y dirigete a la linea 17 e indica el canal de logs para los tickets.
+   Dentro de la carpeta *handlers* entra al archivo **ticketHandler.js** y dirígete a la linea 17 e indica el canal de logs para los tickets.
 
-   En el archivo mencionado anteriormente y en **setup-ticket.js** que se encuentra en la carpeta *commands* puedes cambiar la descripción del embed inicial, cambialo de los 2 si lo quieres cambiar.
+   En el archivo mencionado anteriormente y en **setup-ticket.js** que se encuentra en la carpeta *commands* puedes cambiar la descripción del embed inicial, cámbialo de los 2 si lo quieres cambiar.
 
    Puedes OPCIONALMENTE cambiar la presencia del bot en **index.js** linea 49.
 
