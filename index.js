@@ -19,7 +19,7 @@ const GUILD_ID = process.env.GUILD_ID;
 client.commands = new Collection();
 const commands = [];
 
-// Cargar comandos
+
 const commandFiles = fs.readdirSync("./commands").filter(f => f.endsWith(".js"));
 
 for (const file of commandFiles) {
@@ -51,7 +51,7 @@ client.once("ready", async () => {
     status: "online",
   });
 
-  // Cargar handlers
+
   const handlersPath = path.join(__dirname, "handlers");
   fs.readdirSync(handlersPath).forEach(file => {
     if (!file.endsWith(".js")) return;
