@@ -2,7 +2,7 @@
 
 ![Hecho con JavaScript y Discord.js](https://img.shields.io/badge/Hecho%20con-JavaScript%20%26%20Discord.js-yellow?logo=javascript)
 
-Este proyecto es un bot de Discord creado para gestionar tickets de soporte dentro de un servidor. Su función principal es permitir que los miembros del servidor puedan abrir un ticket de ayuda fácilmente mediante un botón, y que el staff pueda atenderlos en un canal privado. El bot está hecho con Node.js y Discord.js v14, y es totalmente personalizable. Puedes adaptarlo a tu servidor cambiando los textos, permisos o incluso el estilo del panel de tickets.
+Este proyecto es un bot de Discord creado para gestionar tickets de soporte dentro de un servidor. Su función principal es permitir que los miembros del servidor puedan abrir un ticket de ayuda fácilmente mediante un botón, y que el staff pueda atenderlos en un canal privado. El bot está hecho con Node.js y Discord.js, y es totalmente personalizable. Puedes adaptarlo a tu servidor cambiando los textos, permisos o incluso el estilo del panel de tickets.
 
 ### 🧩 Qué hace el bot
 - Envía un panel con un botón para abrir tickets.  
