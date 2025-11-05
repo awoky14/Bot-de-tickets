@@ -25,3 +25,5 @@ Este proyecto es un bot de Discord creado para gestionar tickets de soporte dent
    En el archivo mencionado anteriormente y en **setup-ticket.js** que se encuentra en la carpeta *commands* puedes cambiar la descripción del embed inicial, cambialo de los 2 si lo quieres cambiar.
 
    Puedes OPCIONALMENTE cambiar la presencia del bot en **index.js** linea 49.
+
+4. Inicia el bot con el comando **node index.js**
