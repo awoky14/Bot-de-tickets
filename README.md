@@ -1,27 +1,27 @@
-# Discord Bot - Sistema de Tickets
+# Bot de Tickets para Discord
 
-Este repositorio contiene un bot de Discord diseñado para **gestionar tickets** de manera automática, permitiendo que los usuarios abran canales privados para consultas, soporte o cualquier tipo de interacción que requiera seguimiento individual.
+![Hecho con JavaScript y Discord.js](https://img.shields.io/badge/Hecho%20con-JavaScript%20%26%20Discord.js-yellow?logo=javascript)
 
-## Funcionalidades del sistema de tickets
+Este proyecto es un bot de Discord creado para gestionar tickets de soporte dentro de un servidor. Su función principal es permitir que los miembros del servidor puedan abrir un ticket de ayuda fácilmente mediante un botón, y que el staff pueda atenderlos en un canal privado. El bot está hecho con Node.js y Discord.js v14, y es totalmente personalizable. Puedes adaptarlo a tu servidor cambiando los textos, permisos o incluso el estilo del panel de tickets.
 
-* **Creación de tickets**
+### 🧩 Qué hace el bot
+- Envía un panel con un botón para abrir tickets.  
+- Crea canales privados automáticamente para cada usuario.  
+- Da acceso solo al usuario y al equipo de staff del servidor.  
+- Permite cerrar los tickets con un botón.  
+- Registra todos los mensajes enviados en el canal.
 
-  * Los usuarios pueden abrir un ticket mediante el uso de un boton para abrir tickets anodado a un embed, para verlo tendras que usar el comando `/setup-ticket`.
-  * Se crea un canal privado accesible solo por el usuario y el personal autorizado del servidor.
+### ⚙️ Cómo ponerlo en funcionamiento
+1. Descarga o clona este repositorio.
 
-* **Gestión de permisos**
+2. Sube los archivos a Visual Studio Code o directamente a donde tengas hosteado el bot.
 
-  * Cada ticket tiene permisos configurados para mantener la privacidad.
-  * Solo los miembros autorizados y el usuario que abrió el ticket pueden ver y escribir en el canal.
+3. Cambiar o incluir alguna información para que funcione correctamente:
 
-* **Notificaciones y logs**
+   En el archivo **.env** añade todos los ID y el token del bot.
 
-  * Se pueden enviar mensajes de bienvenida en cada ticket.
-  * Se pueden registrar las aperturas de tickets en un canal de logs del servidor para llevar un control.
+   Dentro de la carpeta *handlers* entra al archivo **ticketHandler.js** y dirigete a la linea 17 e indica el canal de logs para los tickets.
 
-* **Cierre de tickets**
+   En el archivo mencionado anteriormente y en **setup-ticket.js** que se encuentra en la carpeta *commands* puedes cambiar la descripción del embed inicial, cambialo de los 2 si lo quieres cambiar.
 
-  * Los tickets pueden cerrarse mediante comandos o botones interactivos.
-  * Al cerrar un ticket, el canal se borrara automaticamente y la recopiliacion de todos los mensajes del canal sera redireccionada al canal de `logs` indicado por el usuario.
-
-
+   Puedes OPCIONALMENTE cambiar la presencia del bot en **index.js** linea 49.
